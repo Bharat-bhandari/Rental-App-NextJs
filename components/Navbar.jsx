@@ -30,7 +30,7 @@ const Navbar = () => {
     setAuthProviders();
   }, []);
 
-  console.log(session);
+  // console.log(session);
 
   return (
     <nav className="bg-blue-700 border-b border-blue-500">
@@ -113,7 +113,7 @@ const Navbar = () => {
               <div className="flex items-center">
                 {providers &&
                   Object.values(providers).map((provider, i) => {
-                    console.log(provider);
+                    // console.log(provider);
 
                     return (
                       <button
@@ -278,7 +278,7 @@ const Navbar = () => {
 
               providers &&
               Object.values(providers).map((provider, i) => {
-                console.log(provider);
+                // console.log(provider);
 
                 return (
                   <button
