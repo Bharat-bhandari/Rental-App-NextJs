@@ -29,6 +29,7 @@ const PropertyCard = ({ property }) => {
         sizes="100vw"
         width={0}
         height={0}
+        priority={true}
         alt=""
         className="w-full h-auto rounded-t-xl"
       />
