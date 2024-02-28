@@ -7,7 +7,7 @@ const PropertyHeaderImage = ({ image }) => {
       <div className="m-auto container-xl">
         <div className="grid grid-cols-1">
           <Image
-            src={`/images/properties/${image}`}
+            src={image}
             alt=""
             height={0}
             width={0}
